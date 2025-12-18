@@ -31,15 +31,15 @@ This project is part of **The Ultimate React Course** by Jonas Schmedtmann on Ud
    ```
 
 2. Navigate into the project folder and install dependencies:
-```bash
-cd fast-react-pizza
-npm install
-```
+   ```bash
+   cd fast-react-pizza
+   npm install
+   ```
 
 3. Start the development server:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 4. Open http://localhost:5173 (or the port shown in the terminal) in your browser.
 
