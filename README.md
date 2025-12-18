@@ -1,16 +1,52 @@
-# React + Vite
+# Fast React Pizza Co. 🍕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and simple pizza ordering app built with React!
 
-Currently, two official plugins are available:
+This project is part of **The Ultimate React Course** by Jonas Schmedtmann on Udemy. I built this app while following the course to practice advanced React concepts like React Router (with data loading), Redux Toolkit, Tailwind CSS, and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+[Live Demo](https://fast-react-pizza.AtaDev.ir) 
 
-## React Compiler
+## Features
+- Display pizza menu with images, prices, and details
+- Add pizzas to the cart
+- Manage cart (increase/decrease quantity, remove items)
+- Priority orders
+- Track order status with a fake API
+- Responsive and beautiful design with Tailwind CSS
+- No login required (quick ordering!)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- **React** (with Vite for fast builds)
+- **React Router v6** (for routing and data loaders)
+- **Redux Toolkit** (global state management for the cart)
+- **Tailwind CSS** (for styling)
+- **JavaScript** (ES6+)
 
-## Expanding the ESLint configuration
+## How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AtaDevPro/fast-react-pizza.git
+   ```
+
+2. Navigate into the project folder and install dependencies:
+   ```bash
+   cd fast-react-pizza
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open http://localhost:5173 (or the port shown in the terminal) in your browser.
+
+## Personal Changes
+- Added dark mode toggle
+- Improved mobile responsiveness
+- Any other custom features you added!
+
+Feel free to reach out with questions or feedback! 🚀
+Made with ❤️ by [AtaDevPro](https://github.com/AtaDevPro)
